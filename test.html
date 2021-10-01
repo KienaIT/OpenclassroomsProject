@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="testcss.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	
+	<script>
+		function bouton() {
+			document.getElementById('demo').style.fontSize='35px';
+			document.getElementById('demo').style.fontVariant = 'small-caps';
+			}
+	</script>
+	
+    <title>Démarrer avec CSS</title>
+</head>
+
+<body>
+
+    <h1>Je suis un titre de niveau un</h1>
+	
+	<h2>Je suis un titre de niveau deux</h2>
+
+    <p>Ceci est un paragraphe. Dans ce texte il y a un <span>élément span</span>
+ et aussi un <a href="https://kiena.wesdome.com">Kiena</a>.</p>
+
+    <p>Ceci est un second paragraphe. On y trouve un élément <em>mis en valeur</em>.</p>
+	
+	<p id="demo">JavaScript qui change la grosseur de caractères</p>
+	
+	<br><br>
+	<button type="button" onclick="bouton()">Petites majuscules à 35 pixels</button>
+	
+
+	<p class="better">Ceci est un troisième paragraphe assigné à la classe better.</p>
+	
+	<p class="better" id="winning">Ceci est un quatrième paragraphe assigné au ID winning.</p>
+
+    <ul>
+        <li>Item un</li>
+        <li>Item deux</li>
+        <li>Item <em>trois</em></li>
+    </ul>
+	
+<h1 class="main-heading">This is my heading H1.</h1>
+<h2 class="secondary-heading">This is my heading H2.</h2>
+	
+</body>
+
+
+
+</html>
